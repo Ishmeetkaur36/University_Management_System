@@ -28,7 +28,8 @@ Below are detailed descriptions and demo recordings (GIFs/videos) for each core 
 ### 🔐 1. Login Feature  
 Secure multi-role login system supporting **Admin**, **Faculty**, and **Student** logins. Each user is authenticated against the database and redirected to their dedicated dashboard.
 
-🎥  `media/loginFeature.gif`
+🎥  ![Login Demo](media/loginFeature.gif)
+
 
 ---
 
