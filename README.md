@@ -28,10 +28,7 @@ Below are detailed descriptions and demo recordings (GIFs/videos) for each core 
 ### 🔐 1. Login Feature  
 Secure multi-role login system supporting **Admin**, **Faculty**, and **Student** logins. Each user is authenticated against the database and redirected to their dedicated dashboard.
 
-🎥  ![Login](https://raw.githubusercontent.com/Ishmeetkaur36/University_Management_System
-/main/media/loginFeature.gif)
-
-
+🎥  ![LoginDemo](media/loginFeauture.gif)
 
 ---
 
@@ -40,32 +37,32 @@ Secure multi-role login system supporting **Admin**, **Faculty**, and **Student*
 #### ➕ Add Students  
 Register new students by entering details such as name, department, semester, and contact. Each student is assigned a unique student ID stored in the database.
 
-🎥 **Demo:** `media/addStudent.gif`
+🎥   ![Demo](media/addStudent.gif)
 
 #### 👨‍🏫 Add Faculty  
 Add new faculty members by assigning subjects, departments, and login credentials. Faculty data is securely stored and managed by the admin.
 
-🎥 **Demo:** `media/admin_add_faculty.gif`
+🎥   ![Demo](media/addFaculty.gif)
 
 #### 🖊️ Update Student  
 Edit existing student information such as contact, semester, or academic details using a searchable student list.
 
-🎥 **Demo:** `media/admin_update_student.gif`
+🎥   ![Demo](media/updateStudent.gif)
 
 #### ✏️ Update Faculty  
 Update faculty profiles when they change departments, subjects, or personal information.
 
-🎥 **Demo:** `media/admin_update_faculty.gif`
+🎥   ![Demo](media/updateFaculty.gif)
 
 #### ✅ Approve Faculty Leaves  
 Review and approve/reject faculty leave requests with just a click. Approved leaves are logged and reflected in salary calculations.
 
-🎥 **Demo:** `media/admin_approve_faculty_leave.gif`
+🎥   ![Demo](media/facultyLeave.gif)
 
 #### 💸 Set Faculty Salary  
 Set or update salary for faculty based on working days and leave data. Admin controls salary logic and amount.
 
-🎥 **Demo:** `media/admin_set_salary.gif`
+🎥   ![Demo](media/calculateSalary.gif)
 
 ---
 
@@ -74,22 +71,20 @@ Set or update salary for faculty based on working days and leave data. Admin con
 #### 📝 Apply for Leave  
 Faculty can apply for leave by providing dates and reason. Requests are sent to the Admin for approval.
 
-🎥 **Demo:** `media/faculty_apply_leave.gif`
+#### 💵 Check Salary  
+Faculty can view their approved salary slip for the current month, including deductions if any.
+
+🎥   ![Demo](media/checkSalary.gif)
 
 #### 🎯 Set Result  
 Upload or update subject-wise results for students. Faculty can only access subjects assigned to them.
 
-🎥 **Demo:** `media/faculty_set_result.gif`
-
-#### 💵 Check Salary  
-Faculty can view their approved salary slip for the current month, including deductions if any.
-
-🎥 **Demo:** `media/faculty_check_salary.gif`
+🎥   ![Demo](media/setResult.gif)
 
 #### 🧾 Approve Student Leaves  
 Faculty can approve or reject student leave requests submitted through the student panel.
 
-🎥 **Demo:** `media/faculty_approve_student_leave.gif`
+🎥   ![Demo](media/approveSLeave.gif)
 
 ---
 
@@ -98,14 +93,29 @@ Faculty can approve or reject student leave requests submitted through the stude
 #### 📤 Apply for Leave  
 Students can request academic or personal leaves by submitting a form to their respective faculty.
 
-🎥 **Demo:** `media/student_apply_leave.gif`
+🎥   ![Demo](media/leaveS.gif)
 
 #### 📊 Check Result  
 Students can view their subject-wise results once uploaded by faculty. The interface is clean and student-friendly.
 
-🎥 **Demo:** `media/student_check_result.gif`
+🎥   ![Demo](media/result.gif)
+---
+
+
 
 ---
 
-## 📁 Project Structure
+## 💡 How to Run the Project
+
+1. Open project in **NetBeans**
+2. Start **XAMPP**, enable MySQL
+3. Import `university.sql` into phpMyAdmin
+4. Update DB credentials in `DBConnection.java`
+5. Run `Main.java`
+
+---
+
+
+
+
 
