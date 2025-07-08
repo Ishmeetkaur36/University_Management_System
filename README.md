@@ -38,7 +38,7 @@ Secure multi-role login system supporting **Admin**, **Faculty**, and **Student*
 #### ➕ Add Students  
 Register new students by entering details such as name, department, semester, and contact. Each student is assigned a unique student ID stored in the database.
 
-🎥 **Demo:** `media/admin_add_student.gif`
+🎥 **Demo:** `media/addStudent.gif`
 
 #### 👨‍🏫 Add Faculty  
 Add new faculty members by assigning subjects, departments, and login credentials. Faculty data is securely stored and managed by the admin.
