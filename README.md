@@ -104,15 +104,7 @@ Students can view their subject-wise results once uploaded by faculty. The inter
 
 ---
 
-## 💡 How to Run the Project
 
-1. Open project in **NetBeans**
-2. Start **XAMPP**, enable MySQL
-3. Import `university.sql` into phpMyAdmin
-4. Update DB credentials in `DBConnection.java`
-5. Run `Main.java`
-
----
 
 
 
