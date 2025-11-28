@@ -21,7 +21,6 @@ A comprehensive desktop-based University Management System built using **Java (N
 ## 🎥 Feature Demo Sections
 
 Below are detailed descriptions and demo recordings (GIFs/videos) for each core feature.  
-➡️ Replace each placeholder with your actual screen recording links or GIF paths.
 
 ---
 
